@@ -8,8 +8,8 @@ const app = express();
 app.use(morgan('dev'));
 
 // Serve up static files
-app.use(express.static(path.join(__dirname, '..', 'node_modules')));
-app.use(express.static(path.join(__dirname, '..', 'public')));
+app.use(express.static(path.join(__dirname, '.', 'node_modules')));
+app.use(express.static(path.join(__dirname, '.', 'public')));
 
 // Parse incoming requests
 app.use(express.json());
@@ -20,7 +20,7 @@ app.use((req, res, next) =>
 );
 
 app.use('*', (req, res, next) =>
-  res.sendFile(path.join(__dirname, '..', 'public/index.html'))
+  res.sendFile(path.join(__dirname, '.', 'public/index.html'))
 );
 
 app.use((err, req, res, next) =>
