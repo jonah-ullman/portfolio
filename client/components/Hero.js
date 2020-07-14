@@ -4,11 +4,11 @@ function Hero() {
   return (
     <div id="hero">
       <div id="hero-header">
-        <div id="headshot"></div>
         <div id="hero-header-text">
-          <h1 id="name">Jonah Ullman</h1>
-          <h2 id="job-title">Full Stack Developer</h2>
+          <div id="name">Hello, I'm Jonah Ullman.</div>
+          <div id="job-title">I'm a full-stack web developer.</div>
         </div>
+        <div id="projects-button">View Projects</div>
       </div>
     </div>
   );
