@@ -8,7 +8,7 @@ function ProjectCard(props) {
           <div className="project-card-header">
             <div>Cuvee Taste Generator</div>
           </div>
-          <div className="project-card-image cuvee"></div>
+          <div className="project-card-image"></div>
         </div>
         <div className="project-card-back">
           <div>React, Firebase, Victory.js</div>
