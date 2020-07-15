@@ -8,10 +8,7 @@ function ProjectCard(props) {
           <div className="project-card-header">
             <div>Cuvee Taste Generator</div>
           </div>
-          <div>
-            A tool to connect people with wines they'll enjoy based on the foods
-            they love, with data visualization to enhance the experience.{' '}
-          </div>
+          <div className="project-card-image cuvee"></div>
         </div>
         <div className="project-card-back">
           <div>React, Firebase, Victory.js</div>
@@ -23,3 +20,6 @@ function ProjectCard(props) {
 }
 
 export default ProjectCard;
+
+//             A tool to connect people with wines they'll enjoy based on the foods
+//             they love, with data visualization to enhance the experience.
