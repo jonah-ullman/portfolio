@@ -8,6 +8,7 @@ body,
   padding: 0;
   font-family: 'Muli', sans-serif;
   color: #312f2f;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -25,6 +26,7 @@ a {
 
 #headshot {
   border-radius: 100%;
+  /* border: solid 0.15rem #312f2f; */
   height: 15rem;
   width: 15rem;
 }
@@ -116,6 +118,18 @@ a {
   margin-right: 2rem;
 }
 
+.down-arrow {
+  font-size: 3rem;
+  color: #312f2f;
+  opacity: 0.9;
+}
+
+.down-arrow:hover {
+  cursor: pointer;
+  font-size: 4rem;
+  transition: 0.5s;
+}
+
 .nav-item {
   margin: auto 1.5rem;
 }
@@ -140,6 +154,10 @@ a {
   align-items: center;
   background: linear-gradient(#e7f0ef, #eff3f4);
   border-top: solid 0.15rem #312f2f;
+}
+
+#project-cards-container {
+  margin-bottom: 10rem;
 }
 
 .project-card {
@@ -205,9 +223,45 @@ a {
 
 #about-title {
   font-size: 3.5rem;
+  margin-top: 6rem;
+}
+
+#about-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#bio {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#technologies {
+  width: 50%;
+}
+
+#logos {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.logo-container {
+  height: 7rem;
+  width: 7rem;
 }
 
 .logo {
   height: 6rem;
   width: 6rem;
+}
+
+.logo:hover {
+  height: 6.5rem;
+  width: 6.5rem;
+  transition: 0.25s;
 }

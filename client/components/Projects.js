@@ -5,7 +5,12 @@ function Projects() {
   return (
     <div id="projects">
       <div id="projects-title">Projects</div>
-      <ProjectCard />
+      <div id="project-cards-container">
+        <ProjectCard />
+      </div>
+      <a href="#about">
+        <i className="far fa-arrow-alt-circle-down down-arrow"></i>
+      </a>
     </div>
   );
 }
