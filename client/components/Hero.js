@@ -5,10 +5,18 @@ function Hero() {
     <div id="hero">
       <div id="hero-header">
         <div id="hero-header-text">
-          <div id="name">Hello, I'm Jonah Ullman.</div>
+          <div id="name">
+            <div id="hello">{"Hello, I'm "}</div>
+            <div> Jonah Ullman.</div>
+          </div>
           <div id="job-title">I'm a full-stack web developer.</div>
         </div>
-        <div id="projects-button">View Projects</div>
+        <a href="#projects">
+          <div id="projects-button">
+            <div className="projects-link">View Projects</div>
+            <i id="arrow" className="fas fa-arrow-down"></i>
+          </div>
+        </a>
       </div>
     </div>
   );
