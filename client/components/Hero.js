@@ -12,7 +12,7 @@ function Hero() {
           <div id="job-title">I'm a full-stack web developer.</div>
         </div>
         <a href="#projects">
-          <div id="projects-button">
+          <div className="projects-button">
             <div className="projects-link">View Projects</div>
             <i id="arrow" className="fas fa-arrow-down"></i>
           </div>

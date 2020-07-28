@@ -4,9 +4,15 @@ function Navbar() {
   return (
     <div id="navbar">
       <div id="logo">JU</div>
-      <div className="nav-item">Projects</div>
-      <div className="nav-item">About</div>
-      <div className="nav-item">Contact</div>
+      <a href="#projects" className="nav">
+        <div className="nav-item">Projects</div>
+      </a>
+      <a href="#about" className="nav">
+        <div className="nav-item">About</div>
+      </a>
+      <a href="#contact" className="nav">
+        <div className="nav-item">Contact</div>
+      </a>
     </div>
   );
 }
