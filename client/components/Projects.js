@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectCard } from '.';
+import { ProjectCardCuvee, ProjectCardJoin, ProjectCardGraceChopper } from '.';
 
 function Projects() {
   return (
@@ -9,9 +9,9 @@ function Projects() {
         <hr />
       </div>
       <div id="project-cards-container">
-        <ProjectCard />
-        <ProjectCard />
-        <ProjectCard />
+        <ProjectCardCuvee />
+        <ProjectCardJoin />
+        <ProjectCardGraceChopper />
       </div>
       <a href="#about">
         <i className="far fa-arrow-alt-circle-down down-arrow"></i>
